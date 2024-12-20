@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-size: 10px;
+    max-width: 100%;
+     overflow-x: hidden;
+}
+:root{
+    $text-color:rgb(49, 48, 151);
+    $squre-color:rgb(123, 112, 191);
+    $sec-row-color:rgb(177, 157, 137);
+    $last-color:rgb(173, 170, 157);
+}
+.event_number{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    .event_row{
+        height: 50vh;
+        .text{
+           text-align: center;
+           text-decoration: none;
+           text-transform: capitalize;
+          color: rgb(49, 48, 151);
+          font-size: 2.8rem;
+          font-weight: 600;
+          line-height: 35px;
+        }
+        .squre{
+            border-radius: 0% 100% 0% 100% / 100% 0% 100% 0%;
+            width: 99%;
+            aspect-ratio: 16/9;
+            background: rgb(123, 112, 191);
+            margin-block: 5px;
+        }
+        .sec-squre{
+            border-radius: 0% 100% 0% 100% / 100% 0% 100% 0%;
+            width: 99%;
+            aspect-ratio: 16/9;
+            background: rgb(161, 188, 191);
+            margin-block: 5px;
+        }
+        .shape
+        {
+            border-radius: 48% 41% 0% 100% / 0% 60% 40% 0%;
+            width: 99%;
+            aspect-ratio: 16/9;
+            background-color: #939cbc;
+        }
+        .brown
+        {
+            border-radius: 50% 0% 0% 51% / 45% 60% 40% 41%  ;
+            background-color: rgb(177, 157, 137);
+            width: 98%;
+            aspect-ratio: 16/9;
+            margin-block: 5px;
+        }
+        .rectangle{
+            border-radius: 50% 0% 33% 51% / 0% 60% 40% 0%   ;
+            background-color: rgb(173, 170, 157);
+            width: 98%;
+           height: 98%;
+            margin-block: 5px;
+
+        }
+    }
+}
+
+
+
+.who-will-meet{
+    width: 100%;
+    height: 60vh;
+    background:linear-gradient(rgb(49, 48, 151),rgb(123, 112, 191));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    overflow: hidden;
+    .Who-meet-row{
+       height: 40vh;
+       overflow: hidden;
+       .heading-text{
+        text-align: center;
+        text-decoration: none;
+        text-transform: capitalize;
+        color: white;
+        font-size: 2.8rem;
+        font-weight: 600;
+        line-height: 40px;
+       }
+       .swiper-container {
+        width: 100%;
+        height:250px;
+        aspect-ratio: 16/9;
+        margin: 10px auto;
+        overflow: hidden;
+        .swiper-slide {
+            background-color: rgb(161, 188, 191);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 36px;
+            color:white;
+          }
+      }
+    }
+}
+
+  .swiper-pagination-bullet {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
