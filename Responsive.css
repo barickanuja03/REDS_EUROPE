@@ -1,0 +1,8 @@
+@media only screen and (min-width: 425px) {
+    .event_number{
+        height: 80vh;
+    }
+.text{
+    margin:1rem auto;
+}
+}

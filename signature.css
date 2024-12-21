@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-size: 10px;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.signature-meeting {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow-x: hidden;
+}
+.signature-meeting .signature {
+  width: 90%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+.signature-meeting .signature .paragraph h2 {
+  text-align: center;
+}
+.signature-meeting .signature .paragraph p {
+  font-size: 1rem;
+}
+.signature-meeting .signature .swiper {
+  width: 30%;
+  aspect-ratio: 1;
+  margin: auto auto auto -270px;
+  position: absolute;
+  z-index: 1;
+}
+.signature-meeting .signature .swiper .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+  color: #fff;
+  font-size: 1.5em;
+  height: 100%;
+}
+.signature-meeting .signature .swiper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.signature-meeting .signature .swiper .swiper-slide .swiper-slide:nth-child(odd) {
+  background: #444;
+}
+
+.swiper-pagination-bullet {
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}/*# sourceMappingURL=signature.css.map */
